@@ -1,8 +1,8 @@
 # Bose-Hubbard ED
 Simulating dynamics of simple systems with interacting spin-zero particles in an exact basis. The basis is specified via a set of single-particle states (e.g. tight-binding model of lattice orbitals and interorbital connections) and the considered number of bosons. The codes allow simulating both closed dynamics (`bose_hubbard_ed_closed.py`) and open dynamics  with sources and sinks for particles (`bose_hubbard_ed_open.py`). Also, the mean-field, that is, classical apporoximation can be considered (`bose_hubbard_classical.py`) where in the Heisenberg equation of motion, the creation and annihilation operators are replaced by their mean values, that is, a classical number.
 The Hilbert space basis is handled using [QuSpin](https://quspin.github.io/QuSpin/).
-The codes were used to produce the numerical simulations and visualisations of [Pyykkönen et al. All-optical switching at the two-photon limit with interference-localized states, Phys. Rev. Research __5__, 043259, (2023)]{https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043259}.
-The given analyses are thus made for its specific purposes.
+The codes were used to produce the numerical simulations and visualisations of [Pyykkönen et al. All-optical switching at the two-photon limit with interference-localized states, Phys. Rev. Research __5__, 043259, (2023)](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043259).
+The given analyses are thus made for the paper.
 
 
 ## Setup
